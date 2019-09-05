@@ -1,0 +1,37 @@
+a {
+  text-decoration: none;
+}
+
+.menuLeft {
+  position: fixed;
+  top: 0;
+  left: 0px;
+  z-index: 1;
+}
+.menuLeft ul {
+  list-style: none;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.banner .bannerText {
+  position: absolute;
+}
+.banner img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.buscador {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/*# sourceMappingURL=styles.css.map */
