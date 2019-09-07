@@ -18,6 +18,7 @@ a {
     position: fixed;
     top: 60px;
     left: -30px;
+    height: 100%;
     z-index: 2;
     background-color:white;
     font-size: 12px;
@@ -28,7 +29,13 @@ a {
             display: flex;
         }
     }
+}
 
+.navDiv {
+    display: block;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 5px;
 }
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -39,8 +46,8 @@ p {
 img {
     position: relative;
     width: 100%;
-    height: 100%;
-    transition: all 0.5 ease-in-out;
+    height: 500px;
+   
      &:hover {
         opacity: 0.5;
         transition: all 0.5s ease-in-out;
@@ -48,6 +55,9 @@ img {
     }
 }
 
+.logo {
+    width: 80px;
+}
 .searcher {
     width: 100%;
     height: 60px;
@@ -59,9 +69,9 @@ img {
     display:flex;
 
     .search-icon-img{
-        width: 42px;
-        height: 50px;
-        margin: 5px;
+        width: 31px;
+        height: 37px;
+        margin: 16px;
     }
 
 }
@@ -69,9 +79,7 @@ img {
 .buscador {
    width: 100%;
   height: 60px;
-   
-
- color: white;
+   color: white;
 
  }
 
@@ -80,9 +88,10 @@ img {
     position: absolute;
     top: 240px;
     z-index: 2;
-    right: 276px;
+    right: 500px;;
     color: white;
     font-size: 30px;
+
 }
 .icon-img {
     width:15px;
